@@ -5,6 +5,7 @@ class student(person):
 
     def __init__(self, name):
         '''
+        Constructor for student.
         '''
         # super(student, self).__init__()  # This is python 3 syntax
         person.__init__(self, name)
